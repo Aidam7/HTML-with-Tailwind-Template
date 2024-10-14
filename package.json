@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./src/output.css --watch",
+    "start": "http-server -c-1 ./src"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

@@ -5,7 +5,7 @@
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/styles.css -o ./src/output.css --watch",
     "server": "http-server -c-1 ./src",
-    "build": "npx tailwindcss -o build.css --minify"
+    "build": "npx tailwindcss -i ./src/styles.css -o ./src/output.css --minify"
   },
   "dependencies": {
     "http-server": "^14.1.1"
